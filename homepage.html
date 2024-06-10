@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nomad Tours</title>
+    <link href="Logo2.png" rel="shortcut icon">
+    <link rel='stylesheet' href='style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='css/all.min.css'>
+    <link rel='stylesheet' href='css/fontawesome.min.css'>
+</head> 
+<body>
+    <section class="banner">
+        <nav>
+                <a href="homepage.html" class="logo">NOMAD TOURS</a>
+                <div class="navdiv" id="navlinks">
+                    <i class="fa-solid fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="about.html" target="_blank">About Us</a></li>
+                        <button><a href="Signin.html" target="_blank"><span></span>Sign In</a></button>
+                    </ul>
+                    </div>   
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+                
+        </nav>
+        <div class="content">
+            <h1>NOMAD TOURS</h1>
+            <p>Welcome to our tour and travel agency's website. We have many Destinitions<br>
+            as much as aethiopia has.You can see our destinitions  <br>
+            by clicking the destinition button below</p>
+            <div>
+                <button type="button"><span></span><a href="destination.html" target="_blank">Destination</button></a>
+                <button type="button"><span></span><a href="contact.html" target="_blank">Contact</button></a>
+            </div>
+        
+        </div>
+    </section>
+
+
+    <section class="places">
+        <h1>PLACES</h1>
+        <div class="row">
+            <div class="place-col">
+                <a href="historicalplace.html" target="_blank"><img src="10357160.png"></a>
+                <h3>HISTORICAL PLACES</h3>
+            </div>
+            <div class="place-col">
+                <a href="religious.html" target="_blank"><img src="9995904.png"></a>
+                <h3>RELIGIOUS PLACES</h3>
+            </div>
+            <div class="place-col">
+                <a href="naturalplace.html" target="_blank"><img src="8335305.png"></a>
+                <h3>NATURAL PLACES</h3>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="description">
+        <div class="A">
+            <h1>OUR VISION</h1>
+            <p>The vision of an Ethiopian tour and travel agency could be to become the<br> 
+                leading provider of authentic and immersive travel experiences in Ethiopia<br>
+                , showcasing the rich cultural heritage, natural beauty, and diverse landscapes<br> 
+                of the country. The agency may aim to promote sustainable tourism practices that<br>
+                benefit local communities and preserve the environment, while also providing <br>
+                exceptional customer service and creating unforgettable memories for travelers.<br>
+                Ultimately, the vision could be to inspire a deeper appreciation and <br>
+                understanding of Ethiopia's unique history and traditions through personalized <br>
+                and well-curated travel experiences.</p>
+        </div>
+        <div class="B">
+            <h1>OUR MISSION</h1>
+            <p>
+                The mission of an Ethiopian tour and travel agency is to provide exceptional <br>
+                travel experiences for visitors to Ethiopia by offering high-quality and<br>
+                personalized services that showcase the country's rich culture, history, <br>
+                and natural beauty. The agency aims to promote sustainable tourism practices<br>
+                that benefit local communities and preserve the environment, while also <br>
+                contributing to the economic development of Ethiopia through tourism. <br>
+                Additionally, the agency may strive to promote cross-cultural exchange<br>
+                and understanding between visitors and locals, fostering mutual respect<br> 
+                and appreciation. 
+            </p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h2>CONTACT US</h2>
+        <p>Embark on a journey. Explore and visit cultural heritage, breathtaking landscapes, and 
+            Spritual places with us. Contact us today to start planning your adventure in Ethiopia.
+        </p>
+        <div class="contact">
+            <ul>
+                <li> 
+                    <a href="https://instagram.com/nomadtours_.eth">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li> 
+                    <a href="https://instagram.com/nomadtours_.eth">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li> 
+                    <a href="https://instagram.com/nomadtours_.eth">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li> 
+                    <a href="https://instagram.com/nomadtours_.eth">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-buttom">
+            <p>Copyright &copy; 2024 Designed by ASTUSS 11th A </p>
+        </div>
+    </section>
+
+
+
+
+
+<!-----JavaScript for Mobile Menu---->
+    <script>
+
+        var navlinks = document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right= "0";
+        }
+
+        function hidemenu(){
+            navlinks.style.right= "-200px";
+        }
+
+    </script>
+</body>
+</html>

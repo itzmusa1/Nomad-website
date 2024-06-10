@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <link href="Logo2.png" rel="shortcut icon">
+    <link rel='stylesheet' href='style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='css/all.min.css'>
+    <link rel='stylesheet' href='css/fontawesome.min.css'>
+</head>
+<body>
+    <nav class="Othersnav">
+        <a href="homepage.html" class="logo">NOMAD TOURS</a>
+        <div class="navdiv" id="navlinks">
+            <i class="fa-solid fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html" target="_blank">About Us</a></li>
+                <button><a href="Signin.html" target="_blank"><span></span>Sign In</a></button>
+            </ul>
+            </div>   
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <section class="description">
+        <img src="about3.jpg">
+        <div class="A">
+            <h1>OUR VISION</h1>
+            <p>The vision of an Ethiopian tour and travel agency could be to become the<br> 
+                leading provider of authentic and immersive travel experiences in Ethiopia<br>
+                , showcasing the rich cultural heritage, natural beauty, and diverse landscapes<br> 
+                of the country. The agency may aim to promote sustainable tourism practices that<br>
+                benefit local communities and preserve the environment, while also providing <br>
+                exceptional customer service and creating unforgettable memories for travelers.<br>
+                Ultimately, the vision could be to inspire a deeper appreciation and <br>
+                understanding of Ethiopia's unique history and traditions through personalized <br>
+                and well-curated travel experiences.</p>
+        </div>
+        <div class="B">
+            <h1>OUR MISSION</h1>
+            <p>
+                The mission of an Ethiopian tour and travel agency is to provide exceptional <br>
+                travel experiences for visitors to Ethiopia by offering high-quality and<br>
+                personalized services that showcase the country's rich culture, history, <br>
+                and natural beauty. The agency aims to promote sustainable tourism practices<br>
+                that benefit local communities and preserve the environment, while also <br>
+                contributing to the economic development of Ethiopia through tourism. <br>
+                Additionally, the agency may strive to promote cross-cultural exchange<br>
+                and understanding between visitors and locals, fostering mutual respect<br> 
+                and appreciation. 
+            </p>
+        </div>
+    </section>
+
+
+
+
+
+<!-----JavaScript for Mobile Menu---->
+<script>
+
+    var navlinks = document.getElementById("navlinks")
+    function showmenu(){
+        navlinks.style.right= "0";
+    }
+
+    function hidemenu(){
+        navlinks.style.right= "-200px";
+    }
+
+</script>
+</body>
+</html>
