@@ -91,7 +91,7 @@ button a{
 }
 .content p{
     margin: 20px auto;
-    font-weight: bold;
+    font-weight: 300;
     line-height: 25px;
 }
 .content h1{
