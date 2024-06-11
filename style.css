@@ -315,7 +315,11 @@ h3{
     text-decoration: none;
     font-size: 32px;
 }
-
+.contactC ul li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 32px;
+}
 
 /*Style for Places*/
 
