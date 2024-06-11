@@ -162,7 +162,7 @@ button:hover{
         font-size: 22px;
         cursor: pointer;
     }
-    .footerA{
+    .footerA i{
         display: block;
         color: #111;
         margin: 10px;
