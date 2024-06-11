@@ -40,9 +40,9 @@ nav{
     position: relative;
 }
 .navdiv ul li a{
-    color: #87CEEB;
+    color: #111;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 .navdiv ul li::after{
